@@ -8,11 +8,18 @@
 //base
 @import "base/base";
 @import "base/buttons";
+@import 'base/icons';
+@import 'base/tags';
 
 //Layauts
 @import "laylouts/wrapper";
 @import "laylouts/header";
+@import "laylouts/colums";
 
 //Components
 @import "components/contact_us";
 @import "components/promo";
+@import "components/navigation";
+@import "components/tools";
+@import "components/strategies";
+

@@ -1,6 +1,24 @@
+
+
 @mixin font($size,$height, $weight: bold, $style: normal) {
     font-size: $size;
     font-style: $style;
     font-weight: $weight;
     line-height: $height;
+}
+
+@mixin columns ($width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    >* {
+        flex-basis:$width ;
+    }
+}
+
+funky 
+{ font: 20px/24px; 
+    &fantasy {
+        weight: bold;
+    }
 }
